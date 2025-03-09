@@ -27,14 +27,14 @@ mvn clean package
 java -jar target/egg-timer-1.0-SNAPSHOT.jar
 ```
 
-### 🛠️ Usage
+## 🛠️ Usage
 1.	Select egg doneness (Soft, Medium, Hard).
 2.	Select egg size (Small, Medium, Large).
 3.	Click Start to begin the countdown.
 4.	Watch the progress bar and remaining time.
 5.	When time is up, an alarm sound will play!
 
-### 🎵 Sound Issues?
+## 🎵 Sound Issues?
 If the alarm sound does not play:
 1.	Make sure alarm.wav is in src/main/resources/.
 2.	Run:
@@ -43,7 +43,7 @@ mvn clean package
 ```
 3.	Check JavaFX media support.
 
-### 📌 Dependencies
+## 📌 Dependencies
 This project uses:
 - javafx-controls
 - javafx-fxml 
@@ -51,8 +51,8 @@ This project uses:
 
 All dependencies are managed via Maven.
 
-### 🤝 Contributing
+## 🤝 Contributing
 Feel free to fork this project and submit pull requests! 🚀
 
-### 📜 License
+## 📜 License
 MIT License. See LICENSE for details.
